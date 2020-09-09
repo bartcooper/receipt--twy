@@ -1,22 +1,21 @@
-//ReceiptPrinter.java
-
-/* This is a java file 'stub' or piece of a file designed to get you started on 
-* learning to code in java, while at the same time, exploring a little more about
-* collaboration, version control and multiple file scenarios.
-*
-*For this assignment, I would like you to fork, modify and commit this file, while
-* adding the following elements to your code.
-*
-* The receipt printer file could take arguments or parametrs from another class
-* This file will be purely for output
-****************************************
-* 40 characters is a standard width    * 
-* for typical receipt paper, your task *
-* is to make output from the screen    *
-* look like it is printing to a small  *
-* receipt type printer, with all the   *
-* text formatted to 40 characters wide *
-*                                      *
-* Have fun with the assignment!!       *
-****************************************
-*/
+public class ReceiptPrinter {
+	public static void main (String[] args) {
+		System.out.println("****************************************");
+		System.out.println("*                                      *");
+		System.out.println("*           Hyde Park Kroger           *");
+		System.out.println("*            (513) 871-4142            *");
+		System.out.println("*                                      *");
+		System.out.println("* Item List                      Price *");
+		System.out.println("* 1 x Milk (1 gallon)            $1.99 *");
+		System.out.println("* 2 x Eggs (12)                  $2.98 *");
+		System.out.println("* 1 x Cheerios                   $0.99 *");
+		System.out.println("* 2 x Ramen Noodles              $1.98 *");
+		System.out.println("* 1 x Romaine Lettuce            $1.99 *");
+		System.out.println("* 3 x Frozen Pizza              $15.97 *");
+		System.out.println("* 2 x Carrots                    $3.98 *");
+		System.out.println("*                                      *");
+		System.out.println("*    Thank You For Shopping With Us.   *");
+		System.out.println("*                                      *");
+		System.out.println("****************************************");
+	}
+}
